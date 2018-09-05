@@ -1,0 +1,88 @@
+body {
+	background-image: url("../images/crystalbackground.png");
+	background-size: cover;
+}
+
+h1 {
+	background-color: orange;
+	color: white;
+	text-shadow: 1px 1px black;
+	display: inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+}
+
+#mainwrapper {
+	width: 100% max-width: 960px;
+	margin: 0 auto;
+	position: fixed;
+}
+
+#instructions {
+	background-color: white opacity: .80;
+	color: white;
+	text-shadow: 1px 1px #ff0000;
+	font-size: 18px;
+	float: center;
+	text-align: center;
+	width: 75%;
+	clear: both;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+#guessingNumber {
+	background-color: green;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+}
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd;
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom: 26px;
+}
+
+.crystalImage {
+	height: 125px;
+	/* border: solid 1px #272525; */
+	margin-left: 10px;
+	border: 1px white;
+}
+
+/* This fixes the alignment of the crystals */
+.crystalImage:firstchild {
+	margin-left: 0px;
+}
+
+#totalScore {
+	margin-bottom: 50px;
+	margin-top: 20px;
+	color: white;
+}
+
+#yourTotalScore {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd;
+}
+#winsh3 {
+	color:green;
+}
+#lossesh3 {
+	color: red;
+}

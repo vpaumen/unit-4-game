@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div id= "mainwrapper">
+
+<h1><span>Crystal Collectors!<span></h1>
+
+	<div id="instructions">
+		<p> A random number will be provided at the start of the game.</p>
+		<p> There are four crystals below. Each crystal adds a specific value to your total score.</p>
+		<p> You win the game by matching your total score to the random number. You lose the game if your total score goes higher than the random number. </p>
+		<p> Each time the game restarts, the values of each crystal change.</p>
+	</div>
+
+	<div class = "container">
+		<div id="guessingNumber">
+			<h2>Number to Guess: <span class="value"></span></h2> 	
+		</div>
+
+		<div id="scoreboard">
+			<h3><span id="status"></span></h3>
+			<h3 id="winsh3">Wins: <span id="win"></span></h3>
+			<h3 id="lossesh3">Losses: <span id="loss"></span> </h3>
+		</div>
+	</div>
+
+	
+	<div id="crystals"></div>
+
+	<div id ="totalScore">
+		<h2 id = "yourTotalScore">Your Total Score is: <span id ="yourScore">0</span></h2>
+		
+	</div>
+
+</div>
+
+
+<!-- adding jQuery -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
